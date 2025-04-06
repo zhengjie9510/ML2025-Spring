@@ -1,0 +1,65 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "ml2025-hw4-pokemon",
+  "dataset_size": 2482934,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/lca0503/ml2025-hw4-pokemon@09f46f59329d24306d8e31d7dd2b1523eb7fecc3/data/train-00000-of-00001.parquet": {
+      "num_bytes": 174664,
+      "checksum": null
+    },
+    "hf://datasets/lca0503/ml2025-hw4-pokemon@09f46f59329d24306d8e31d7dd2b1523eb7fecc3/data/dev-00000-of-00001.parquet": {
+      "num_bytes": 23443,
+      "checksum": null
+    },
+    "hf://datasets/lca0503/ml2025-hw4-pokemon@09f46f59329d24306d8e31d7dd2b1523eb7fecc3/data/test-00000-of-00001.parquet": {
+      "num_bytes": 15414,
+      "checksum": null
+    }
+  },
+  "download_size": 213521,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "pixel_color": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 2696455,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 2064634,
+      "num_examples": 632,
+      "dataset_name": "ml2025-hw4-pokemon"
+    },
+    "dev": {
+      "name": "dev",
+      "num_bytes": 261110,
+      "num_examples": 80,
+      "dataset_name": "ml2025-hw4-pokemon"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 157190,
+      "num_examples": 80,
+      "dataset_name": "ml2025-hw4-pokemon"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "citation": "",
+  "dataset_size": 29159299,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/kciree/fastchat_alpaca_52k/resolve/437320e5b9b9f388a85172e701e7564058da9d6c/data/train-00000-of-00001-4646227a82aaa719.parquet": {
+      "num_bytes": 12559282,
+      "checksum": null
+    }
+  },
+  "download_size": 12559282,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "conversations": [
+      {
+        "content": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "role": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      }
+    ],
+    "score": {
+      "dtype": "float64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 41718581,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 29159299,
+      "num_examples": 52002,
+      "dataset_name": "parquet"
+    }
+  }
+}

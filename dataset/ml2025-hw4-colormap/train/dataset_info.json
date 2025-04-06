@@ -1,0 +1,45 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "ml2025-hw4-colormap",
+  "dataset_size": 6096,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/lca0503/ml2025-hw4-colormap@657ec81316d3c5dbc215ede0da2739568d7f06cc/data/train-00000-of-00001.parquet": {
+      "num_bytes": 3110,
+      "checksum": null
+    }
+  },
+  "download_size": 3110,
+  "features": {
+    "id": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "color": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 9206,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 6096,
+      "num_examples": 167,
+      "dataset_name": "ml2025-hw4-colormap"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
